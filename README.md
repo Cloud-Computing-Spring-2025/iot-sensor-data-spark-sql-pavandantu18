@@ -49,3 +49,37 @@ task4_output.csv
 
 task5_output.csv
 
+## Code Explanation (Step-by-Step)
+## Task 1: Load & Basic Exploration
+Load CSV into DataFrame with inferred schema.
+
+Create a temporary SQL view (sensor_readings).
+
+Display basic stats: first 5 rows, record count, distinct locations, and sensor types.
+
+## Task 2: Filtering & Aggregations
+Filter temperatures (18°C–30°C) and count in-range/out-of-range records.
+
+Compute average temperature and humidity per location.
+
+## Task 3: Time-Based Analysis
+Convert string timestamps to timestamp datatype.
+
+Group data by hour of day, calculate hourly average temperature, and find hottest hour.
+
+## Task 4: Ranking Sensors by Average Temperature (Window Function)
+Compute average temperature per sensor.
+
+Rank sensors based on average temperature and display the top 5.
+
+## Task 5: Pivot Table & Interpretation
+Pivot data: Rows are locations, columns are hours (0–23), cells show average temperatures.
+
+Identify the (location, hour) combination with the highest average temperature.
+
+### Finalization
+Stop Spark session after tasks completion:
+```bash
+spark.stop()
+```
+
